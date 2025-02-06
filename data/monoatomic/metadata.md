@@ -36,7 +36,7 @@
 
 ## Citation
 If you use this dataset, please cite:
-@misc{duque2025machinelearningdrivenanalyticalmodels,
+@article{duque2025machinelearningdrivenanalyticalmodels,
       title={Machine Learning-Driven Analytical Models for Threshold Displacement Energy Prediction in Materials}, 
       author={Rosty B. Martinez Duque and Arman Duha and Mario F. Borunda},
       year={2025},
