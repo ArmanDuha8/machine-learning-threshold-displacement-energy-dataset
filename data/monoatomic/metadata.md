@@ -2,12 +2,12 @@
 
 ## General Information
 - **Title**: Threshold Displacement Energy Dataset with Material Properties
-- **Filename**: eds_all_methods.csv
+- **Filename**: monoatomic_avg_Ed.csv
 - **Version**: 1.0.0
 - **License**: CC BY 4.0
 - **Authors**: Rosty B. Martinez Duque, Arman Duha, Mario F. Borunda
 - **Description**: 
-  This dataset contains threshold displacement energy (Ed) values averaged over different literature sources (raw data with separate literature values are in the file "monoatomic.csv") for various monoatomic materials, along with fundamental physical and chemical properties such as atomic number, cohesive energy, density, melting temperature, etc.
+  This dataset contains threshold displacement energy (Ed) values averaged over different literature sources (raw data with separate literature values are in the file "Monoatomic.csv") for various monoatomic materials, along with fundamental physical and chemical properties such as atomic number, cohesive energy, density, melting temperature, etc.
 
 ## Data Description
 - **File Format**: CSV
