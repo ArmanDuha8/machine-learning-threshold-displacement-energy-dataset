@@ -43,5 +43,5 @@ If you use this dataset, please cite:
       eprint={2502.01813},
       archivePrefix={arXiv},
       primaryClass={cond-mat.mtrl-sci},
-      url={https://arxiv.org/abs/2502.01813}, 
+      url={https://arxiv.org/abs/2502.01813}
 }
