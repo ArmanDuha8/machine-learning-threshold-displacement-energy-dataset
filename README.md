@@ -50,7 +50,6 @@ machine-learning-threshold-energy-dataset/
 ### Prerequisites
 To use the scripts and notebooks, ensure you have the following installed:
 - Python 3.8+
-- Jupyter Notebook
 - Required Python libraries: `numpy`, `pandas`, `matplotlib`, `scikit-learn`
 
 Install the required libraries using:
@@ -64,13 +63,11 @@ pip install -r requirements.txt
    - Navigate to the `data/` directory to view the raw and processed datasets for monoatomic and polyatomic materials.
    - Detailed metadata is available in `data/monoatomic/metadata.md` and `data/polyatomic/metadata.md`.
 
-2. **Run Analysis Scripts**  
-   - Use the scripts in `scripts/` to preprocess data, run analyses, or generate figures.
-   - Example workflows are provided in `example_usage/`.
+2. **Run examples**  
+   - Use the files in `example/` to run your first example.
 
 3. **Reproduce Results**  
-   - Open `scripts/analyze_data.ipynb` for an end-to-end analysis pipeline.
-   - Figures and tables used in the manuscript can be generated using `generate_figures.py`.
+   - Open `scripts/` for reproducing R-squared values shown in the manuscript.
 
 ---
 
@@ -80,7 +77,7 @@ pip install -r requirements.txt
   Includes data for 33 monoatomic elements with features like atomic number, cohesive energy, melting temperature, density, and calculated threshold displacement energy (Ed).
 
 - **Polyatomic Materials**:  
-  Includes data for alloys, ceramics, and semiconductors with features like stoichiometry, bond lengths, and effective threshold displacement energy (Eeff).
+  Includes data for alloys, ceramics, and semiconductors with features like stoichiometry, bond lengths, etc.
 
 For detailed information, refer to the metadata files in the `data/` directory.
 
@@ -90,14 +87,11 @@ For detailed information, refer to the metadata files in the `data/` directory.
 
 If you use this dataset or scripts in your work, please cite the manuscript:
 ```
-@misc{duque2025machinelearningdrivenanalyticalmodels,
-      title={Machine Learning-Driven Analytical Models for Threshold Displacement Energy Prediction in Materials}, 
-      author={Rosty B. Martinez Duque and Arman Duha and Mario F. Borunda},
-      year={2025},
-      eprint={2502.01813},
-      archivePrefix={arXiv},
-      primaryClass={cond-mat.mtrl-sci},
-      url={https://arxiv.org/abs/2502.01813}, 
+@article{duque2025machine,
+  title={Machine Learning-Driven Analytical Models for Threshold Displacement Energy Prediction in Materials},
+  author={Duque, Rosty B Martinez and Duha, Arman and Borunda, Mario F},
+  journal={arXiv preprint arXiv:2502.01813},
+  year={2025}
 }
 ```
 
