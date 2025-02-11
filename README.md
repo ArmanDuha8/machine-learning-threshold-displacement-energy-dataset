@@ -2,15 +2,13 @@
 
 This repository contains the dataset, metadata, and analysis scripts associated with the manuscript:
 
-**"Machine Learning-Driven Analytical Models for Threshold Displacement Energy Prediction in Materials"**  
-*Authors*: Rosty B. Martinez Duque, Arman Duha, and Mario F. Borunda  
-*Date*: January 22, 2025
+**Duque, Rosty B. Martinez, Arman Duha, and Mario F. Borunda. "Machine Learning-Driven Analytical Models for Threshold Displacement Energy Prediction in Materials." arXiv preprint arXiv:2502.01813 (2025).**
 
 ## Overview
 
 Understanding the threshold displacement energy (Ed) is crucial for predicting radiation damage in materials, particularly in applications like nuclear reactors, aerospace, and advanced materials engineering. This repository includes:
 - Data used as features for monoatomic and polyatomic materials to derive analytical models using the [SISSO](https://github.com/rouyang2017/SISSO) machine learning method.
-- Scripts for preprocessing, analysis, and visualization.
+- Scripts for running examples and reproducing results.
 
 The provided resources enable reproducible research, facilitate further exploration of radiation damage in materials, and can, in general, be useful for any research requiring fundamental property data of materials.
 
@@ -21,26 +19,19 @@ The provided resources enable reproducible research, facilitate further explorat
 ```plaintext
 machine-learning-threshold-energy-dataset/
 │
+├── CITATION.cff          # Citation information for the repository
 ├── README.md             # Overview of the repository
 ├── LICENSE               # Licensing information
 ├── data/                 # Datasets and metadata
 │   ├── monoatomic/       # Monoatomic materials data
 │   ├── polyatomic/       # Polyatomic materials data
-│   ├── supplementary/    # Supporting data and references
+│   ├── references.pdf    # References of data source
 │
-├── scripts/              # Scripts for data preprocessing and analysis
-│   ├── preprocess.py     # Script to clean and prepare raw data
-│   ├── analyze_data.ipynb# Jupyter notebook for analysis
-│   ├── generate_figures.py # Script to create visualizations
+├── scripts/              # Scripts for reproducing results
+│   ├── R_squared.py     # Script to calculate R2 after running the example
 │
-├── docs/                 # Detailed documentation
-│   ├── methods.md        # Methods used for data collection and modeling
-│   ├── results.md        # Explanation of results and model performance
-│
-├── CITATION.cff          # Citation information for the repository
-└── example_usage/        # Example scripts for using the dataset
-    ├── load_data.py      # Example script for loading the data
-    ├── model_comparison.ipynb # Notebook comparing model performance
+└── example/        # Example data and scripts for using the dataset
+    
 ```
 
 ---
