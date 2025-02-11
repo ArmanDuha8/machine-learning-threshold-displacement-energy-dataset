@@ -2,7 +2,7 @@
 
 This repository contains the dataset, metadata, and analysis scripts associated with the manuscript:
 
-**Duque, Rosty B. Martinez, Arman Duha, and Mario F. Borunda. "Machine Learning-Driven Analytical Models for Threshold Displacement Energy Prediction in Materials." arXiv preprint arXiv:2502.01813 (2025).**
+**[Duque, Rosty B. Martinez, Arman Duha, and Mario F. Borunda. "Machine Learning-Driven Analytical Models for Threshold Displacement Energy Prediction in Materials." arXiv preprint arXiv:2502.01813 (2025).](https://arxiv.org/abs/2502.01813)**
 
 ## Overview
 
