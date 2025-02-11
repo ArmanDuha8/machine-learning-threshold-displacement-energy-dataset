@@ -19,7 +19,7 @@ The provided resources enable reproducible research, facilitate further explorat
 ```plaintext
 machine-learning-threshold-energy-dataset/
 │
-├── CITATION.cff          # Citation information for the repository
+├── CITATION.bib          # Citation information for the repository
 ├── README.md             # Overview of the repository
 ├── LICENSE               # Licensing information
 ├── data/                 # Datasets and metadata
