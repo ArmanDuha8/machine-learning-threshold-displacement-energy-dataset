@@ -7,7 +7,7 @@ This repository contains the dataset, metadata, and analysis scripts associated 
 ## Overview
 
 Understanding the threshold displacement energy (Ed) is crucial for predicting radiation damage in materials, particularly in applications like nuclear reactors, aerospace, and advanced materials engineering. This repository includes:
-- Data used as features for monoatomic and polyatomic materials to derive analytical models using the [SISSO](https://github.com/rouyang2017/SISSO) machine learning method.
+- Data used as features for monoatomic and polyatomic materials to derive analytical models to predict Ed using the [SISSO](https://github.com/rouyang2017/SISSO) machine learning method.
 - Scripts for running examples and reproducing results.
 
 The provided resources enable reproducible research, facilitate further exploration of radiation damage in materials, and can, in general, be useful for any research requiring fundamental property data of materials.
